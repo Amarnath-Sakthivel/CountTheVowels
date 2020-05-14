@@ -17,7 +17,7 @@ public class CountTheVowels {
             String s1 = output.toUpperCase();
             int len1 = output.toUpperCase().length();
             String s2 = Integer.toString(len1);
-            System.out.println(s1+":"+s2);
+            return s1+":"+s2;
 
         }
 
@@ -26,9 +26,9 @@ public class CountTheVowels {
             for (int i = (arr.length) - 1; i >= 0; i--) {
                 rev += arr[i];
             }
-            System.out.println(rev.toUpperCase() + ":" + "ERROR");
+                return rev.toUpperCase()+":"+"ERROR";
         }
-        return rev.toUpperCase()+"ERROR";
+        
     }
 
     public static void main(String args[]) {
